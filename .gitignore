@@ -1,0 +1,13 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Netlify CLI
+.netlify/
+
+# Logs
+*.log
