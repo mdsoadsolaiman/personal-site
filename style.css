@@ -268,13 +268,13 @@ h1, h2, h3, h4 {
 
 .sparkline .mono-label {
   font-size: 10px;
-  fill: var(--ink-soft);
+  fill: var(--ink-faint);
 }
 
 .figure-caption {
   font-family: var(--mono);
   font-size: 0.78rem;
-  color: var(--ink-soft);
+  color: var(--ink-faint);
   margin-top: 8px;
 }
 
@@ -320,6 +320,10 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 36px 48px;
+}
+
+.interest-wide {
+  grid-column: 1 / -1;
 }
 
 .interest h3 {
